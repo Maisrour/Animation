@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 5px 0px;
+    box-sizing: border-box;
+}
+.delivery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.delivery1, .delivery2 , .delivery3 ,.delivery4 ,.delivery5 ,.delivery6{
+    position: absolute;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    margin-top: 5px;
+}
+.delivery2 ,.delivery4, .delivery6{
+    margin-top: 25px;
+}
+.delivery1{
+    animation-name: change1;
+    left: 50px;
+} 
+@keyframes change1{
+    0%{
+left: 50px;
+    }
+    100%{
+left: 1200px;
+    }
+}
+ .delivery2{
+    animation-name: change2;
+    animation-delay: 2s;
+    top: 105px;
+    left: 1200px;
+} 
+@keyframes change2{
+    0%{
+    }
+    100%{
+left: 50px;
+    }
+} 
+.delivery3{
+    animation-name: change3;
+    animation-delay: 4s;
+    top: 205px;
+    left: 50px;
+} 
+@keyframes change3{
+    0%{
+        left: 50px;
+    }
+    100%{
+        left: 1200px;
+    }
+} 
+.delivery4{
+    animation-name: change4;
+    animation-delay: 6s;
+    top: 305px;
+    left: 1200px;
+} 
+@keyframes change4{
+    0%{
+    }
+    100%{
+left: 50px;
+    }
+} 
+.delivery5{
+    animation-name: change5;
+    animation-delay: 8s;
+    top: 405px;
+    left: 50px;
+} 
+@keyframes change5{
+    0%{
+        left: 50px;
+    }
+    100%{
+left: 1200px;
+    }
+} 
+.delivery6{
+    animation-name: change6;
+    animation-delay: 10s;
+    top: 505px;
+    left: 1200px;
+} 
+@keyframes change6{
+    0%{
+    }
+    100%{
+left: 50px;
+    }
+} 
